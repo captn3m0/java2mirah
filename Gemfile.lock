@@ -1,0 +1,14 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.9.7)
+    filigree (0.3.2)
+    rltk (3.0.0)
+      ffi (>= 1.0.0)
+      filigree (>= 0.2.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rltk

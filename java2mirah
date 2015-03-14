@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+require_relative 'transpiler.rb'
+
+if ARGV[0]
+  file = ARGV[0]
+  Java2Mirah::Transpiler.new(File.read(file), file).process
+else
+  puts "No file specified"
+end
